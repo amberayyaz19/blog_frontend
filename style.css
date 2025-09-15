@@ -3,6 +3,8 @@ body {
     display: flex;
     justify-content: center;
     background-color: #f8f9fa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #logo {
@@ -10,25 +12,61 @@ body {
     color: #535050;
     font-size: 40px;
     font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    padding: 20px 0;
+
+}
+
+.container{
+    max-width: 700px;
+    width:100%;
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;    
 }
 
 
 
-.card 
-{
+.card {
     background-color: #ffffff;
-    padding: 20px 145px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     margin-bottom: 20px;
-    text-align: center;
+    padding: 20px;
+    padding-top: 10px;
     margin-top: 20px;
 }
 
 #menu {
-display: flex;
-gap: 45px;
-justify-content: center;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    text-align: center;
+    color: #535050;
+    font-size: 18px;
+    
+  
+    padding: 20px 145px;
 }
+
+.button{
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    color: #007bff;
+    transition: all 0.2s ease-in-out;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.button:hover, .button.active{
+    background-color: #007bff;
+    color: white;
+}
+
+footer{
+
+    display: flex;
+}
+
+
