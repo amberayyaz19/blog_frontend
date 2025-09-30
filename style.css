@@ -76,3 +76,10 @@ footer {
 .paragraph {
     color: #828080;
 }
+
+#footer {
+    color: #828080;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
