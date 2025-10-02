@@ -3,8 +3,10 @@ body {
     display: flex;
     justify-content: center;
     background-color: #f8f9fa;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #464646;
+}
+body , textarea, input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #logo {
@@ -97,7 +99,7 @@ footer {
 
 h2 {
     margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
     color: #464646;
 
 }
