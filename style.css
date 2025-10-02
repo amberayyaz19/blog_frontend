@@ -4,7 +4,7 @@ body {
     justify-content: center;
     background-color: #f8f9fa;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    color: #464646;
 }
 
 #logo {
@@ -82,4 +82,45 @@ footer {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+#createPostForm {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+h2 {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #464646;
+
+}
+
+#createPostForm label {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+#createPostForm input,
+#createPostForm textarea {
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    max-width: 90%;
+    min-width: 90%;
+
+}
+
+#createPostForm textarea {
+    min-height: 150px;
+}
+
+#publishPost:hover {
+    background-color: #004fa4;
 }
